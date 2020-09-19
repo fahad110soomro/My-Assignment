@@ -23,3 +23,25 @@ Best tool to get the else part of the if statement easily from the large code ev
 This is the best tool for the developers to easily maintain the large code in which there is a lot of if else statements cause it helps to find the if statement’s else part easily simply by hover feature..
 
 
+<h1>Automatically Granted Permissions 
+in 
+   Android Apps</h1>
+
+<br>
+<h2>Authors:  Paolo Calciati, Konstantin Kuznetsov, Alessandra Goria, Andreas Zeller.
+Conference Name: MSR 2020 Technical Papers
+Date: Tue 30 Jun 2020 11:12 - 11:24 at MSR:Zoom2 – Security	 Chair(s): Dimitris Mitropoulos</h2>
+<br>
+<h3>Introduction:</h3>
+Android apps are updated continuously by developers to keep up with competitors in the market. Such constant updates do not bother end users, by default the Android platform automatically pushes the most recent compatible release on the device, unless there are major changes in the list of requested permissions that users have to explicitly grant. The lack of user’s explicitly approve of update for each application may lead to some risks for the end user, as the new behavior may be the privacy invasive and then the Permission Group’s Introduction in Android make this problem worse cause If a user gives the single permission within a group the application can silently request further permissions in this group with every and each update without asking user. The threat that permission groups may pose for the privacy of Android users.
+<br>
+<h3>Methodology:</h3>
+The empirical study on 2,865,553 app releases and showed that the in a representative app store more than 17% of apps request new dangerous permission that the operating system grants without any user’s approval. Our analysis shows that apps actually use over 56% of such automatically granted permissions, although most of that there isn’t any description given that for what purpose it is being used.
+<br>
+<h3>Motivation:</h3>
+The motivation in this research work is that the automatically granted permissions in the android app is very harmful for the user cause it collects the personal data of the user.
+<br>
+<h3>Result:</h3>
+Our manual inspection reveals clear abuses of apps that leak sensitive data such as user’s accurate location, list of contacts, history of phone calls, and emails which are protected by permissions that user never explicitly acknowledges. 
+
+	
